@@ -6,8 +6,9 @@ label_map = {
     2: "chair",
     3: "window"
 }
-
+'''đương dẫn của cho file lưa label_map.json'''
 with open(r"D:\code\python\ttcs\label_map.json", "w") as f:
     json.dump(label_map, f, indent=4)
 
 print("Đã tạo file label_map.json")
+
